@@ -13,7 +13,7 @@ public class DBUtil {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
-				con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","Capgemini123");
+				con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:system","iter","iter123");
 				return con;
 		}
 	}

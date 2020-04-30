@@ -18,11 +18,8 @@ public class ValidatorServlet extends HttpServlet {
 		
 		String username=request.getParameter("username");  
 	    String password=request.getParameter("pwd");
-	    
-	    //username = sachiket
-	    //password = iter123
-	    
-	    if(username.equals("sachiket") && password.equals("iter123")){  
+	        
+	    if(username.equals("iter") && password.equals("iter123")){  
 	        RequestDispatcher rd=request.getRequestDispatcher("success");  
 	        rd.forward(request, response);  
 	    } 
